@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#links {
+    text-align: end;
+}
+
+#links > a {
+    margin: 10px;
+    color:#5e5c5c;
+    text-decoration: none;
+}
+
+#links > a:hover {
+    text-decoration: underline;
+}
+
+#container {
+    text-align: center;
+    margin-top: 300px;
+}
+
+form > input[type=text] {
+    margin-top: 15px;
+    width: 600px;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 35px;
+    border: 1px solid #cecdcd;
+}
+
+form > input[type=submit] {
+    padding: 15px;
+    margin: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover {
+    border: 1px solid #cecdcd;
+}

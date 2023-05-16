@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Google - Pesquisa Avançada</title>
+        <link rel="stylesheet" href="advanced.css">
+    </head>
+    <body>
+        <header id="links">
+            <img id="google_logo" src="images/google_logo.png" alt="google logo">
+            <div>
+                <a href="index.html">Google</a>
+                <a href="google_images.html">Google Imagens</a>
+            </div>
+        </header>
+        <div id="container">
+            <h2 id="form-title">Pesquisa Avançada</h2>
+            <hr />
+            <form action="https://www.google.com/search">
+                <h3>Localizar páginas com...</h3>
+                <div>
+                    <label>Todas estas palavras: </label>
+                    <input type="text" name="as_q">
+                    <span class="form_example">Digite as palavras importantes: rat terrier tricolor</span><br />
+                </div> 
+                <div>
+                    <label>Esta expressão ou frase exata: </label>
+                    <input type="text" name="as_epq">
+                    <span class="form_example">Coloque palavras exatas entre aspas: "rat terrier"</span><br />
+                </div>
+                <div>
+                    <label>Qualquer uma destas palavras: </label>
+                    <input type="text" name="as_oq">
+                    <span class="form_example">Digite OR entre todas as palavras que você procura: miniatura OR padrão</span><br />
+                </div>
+                <div>
+                    <label>Nenhuma destas palavras: </label>
+                    <input type="text" name="as_eq">
+                    <span class="form_example">Coloque um sinal de menos antes das palavras que você não quer: -roedor, -"Jack Russell"</span><br />
+                </div>
+                <Input type="submit" value="Pesquisa Avançada">
+            </form>
+        </div>
+    </body>
+</html>
